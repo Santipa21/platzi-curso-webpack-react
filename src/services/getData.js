@@ -1,4 +1,4 @@
-const API = process.env.API  || 'https://randomuser.me/api/';
+const API = process.env.API;
 
 const getData = async (id) => {
   const apiURL = id ? `${API}${id}` : API;
